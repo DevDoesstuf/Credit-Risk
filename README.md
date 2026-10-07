@@ -71,7 +71,7 @@ natively (a real chunk of `MonthlyIncome` is missing) instead of leaning on
 imputation. The SQL-engineered peer/percentile/tier features give it extra
 signal to split on. That combination is the 0.67 → 0.86 story.
 
-## About the data (read this)
+## About the data 
 
 This is a **faithful reconstruction of a project whose original source files
 were lost** — rebuilt from the resume description, not recovered byte-for-byte.
