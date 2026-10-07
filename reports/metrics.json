@@ -1,0 +1,56 @@
+{
+  "baseline": {
+    "auc": 0.6737,
+    "recall": 0.6439,
+    "precision": 0.0911,
+    "threshold": 0.5,
+    "confusion": {
+      "tn": 18799,
+      "fp": 9693,
+      "fn": 537,
+      "tp": 971
+    }
+  },
+  "final": {
+    "auc": 0.8643,
+    "recall": 0.6412,
+    "precision": 0.2009,
+    "threshold": 0.321,
+    "confusion": {
+      "tn": 24646,
+      "fp": 3846,
+      "fn": 541,
+      "tp": 967
+    }
+  },
+  "recall_target": 0.68,
+  "best_params": {
+    "min_samples_leaf": 20,
+    "max_leaf_nodes": 127,
+    "max_iter": 700,
+    "max_depth": 4,
+    "max_bins": 255,
+    "learning_rate": 0.1,
+    "l2_regularization": 5.0
+  },
+  "feature_importance": {
+    "RevolvingUtilizationOfUnsecuredLines": 0.21916,
+    "MonthlyIncome": 0.08175,
+    "DebtRatio": 0.06664,
+    "income_percentile": 0.05715,
+    "risk_tier": 0.03163,
+    "peer_delinquency_gap": 0.02663,
+    "age": 0.01866,
+    "delinquency_score": 0.00489,
+    "NumberRealEstateLoansOrLines": 0.00028,
+    "NumberOfTime60-89DaysPastDueNotWorse": 0.00012,
+    "NumberOfTimes90DaysLate": 3e-05,
+    "NumberOfTime30-59DaysPastDueNotWorse": -3e-05,
+    "NumberOfOpenCreditLinesAndLoans": -0.00013,
+    "NumberOfDependents": -0.00077
+  },
+  "n_train": 96000,
+  "n_val": 24000,
+  "n_test": 30000,
+  "default_rate": 0.0503
+}
